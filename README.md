@@ -1,14 +1,18 @@
-# ML-of-DGA-classifiers. 
-Importance of diversity of DGA domain name data in ML modelling of DGA classifiers
+# ML-of-DGA-classifiers<br />
+Importance of diversity of DGA domain name data in ML modelling of DGA classifiers<br />
 
 **Problem setting**<br />
 I followed online lecture of ‘Supervised machine learning in security applications 2018, Charles Givre, O’Reilly’. He showed very high accuracy above 0.99 of Domain Generating Algorithm (DGA) classifier. I wanted replicate his experiment with one family of DGA. In addition, I was curious.  
 - how does accuracy of the DGA classifier change if DGA data are used from various (six) DGA families instead of only one family of DGA?    
 - Does use of diversified DGA data affect feature importances?
 
-**Data**    
+**Data**    <br />
 Benign domain names: Cisco Umbrella (/Data/top-1m.csv.zip)<br />
-Malicious domain names: data.netlab.360.com (/Data/dga.txt.zip)
+Malicious domain names: data.netlab.360.com (/Data/dga.txt.zip)<br />
+
+**Feature engineering** <br />
+DGA_feature_engineering-1DGAfamily.ipynb<br />
+DGA_feature_engineering-6DGAfamilies.ipynv<br />
 
 **Data after feature engineering**<br />
 Data with one DGA family (Data/domain_final_features.csv.zip)<br /> 
@@ -21,6 +25,10 @@ Data with 6 DGA families (Data/domain_final_features_moredata.csv.zip)<br />
 
 **Approaches**<br />
 ![GitHub Logo](/images/workflow1_2-3.png)
+
+**Supervised machine learning**<br />
+DGA_ML-1DGAfamily.ipynb<br />
+DGA_ML-6DGAfamily.ipynb<br />
 
 **Results**<br />
 Result1. Generating a realistic ML model by increasing diversity of the DGA data<br />
