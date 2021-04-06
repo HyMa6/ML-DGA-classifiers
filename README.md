@@ -1,5 +1,5 @@
 # ML-of-DGA-classifiers<br />
-Importance of diversity of DGA domain name data in ML modelling of DGA classifiers<br />
+Importance of utilising diverse DGA families in ML modelling of DGA classifiers<br />
 
 **Problem setting**<br />
 I followed online lecture of ‘Supervised machine learning in security applications 2018, Charles Givre, O’Reilly’. He showed very high accuracy above 0.99 of Domain Generating Algorithm (DGA) classifier. I wanted replicate his experiment with one family of DGA. In addition, I was curious.  
