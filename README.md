@@ -9,6 +9,7 @@ I followed online lecture of ‘Supervised machine learning in security applicat
 **Data**    <br />
 Benign domain names from Cisco Umbrella (/Data/top-1m.csv.zip)<br />
 Malicious domain names from data.netlab.360.com (/Data/dga.txt.zip)<br />
+
 **Approaches**<br />
 ![GitHub Logo](/images/workflow1_2-3.png)
 
