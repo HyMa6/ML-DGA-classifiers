@@ -12,7 +12,7 @@ Malicious domain names from data.netlab.360.com (/Data/dga.txt.zip)<br />
 
 **Feature engineering** <br />
 /Codes/DGA_feature_engineering-1DGAfamily.ipynb<br />
-/Codes/DGA_feature_engineering-6DGAfamilies.ipynv<br />
+/Codes/DGA_feature_engineering-6DGAfamilies.ipynb<br />
 
 **Data after feature engineering**<br />
 Data with one DGA family (Data/domain_final_features.csv.zip)<br /> 
