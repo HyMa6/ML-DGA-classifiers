@@ -23,8 +23,8 @@ Data with one DGA family (Data/domain_final_features.csv.zip)<br />
 - Benign domain names 179991 instances<br />
 
 Data with 6 DGA families (Data/domain_final_features_moredata.csv.zip)<br />
-- DGA malicious damains 213695 instances<br />
-- Benign domains 213695 instances<br />
+- DGA malicious damain names 213695 instances<br />
+- Benign domain names 213695 instances<br />
 
 **Supervised machine learning**<br />
 /Codes/DGA_ML-1DGAfamily.ipynb<br />
