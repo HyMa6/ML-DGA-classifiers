@@ -7,17 +7,17 @@ I followed online lecture of ‘Supervised machine learning in security applicat
 - Does use of diversified DGA data affect feature importances?
 
 **Data**    <br />
-Benign domain names: Cisco Umbrella (/Data/top-1m.csv.zip)<br />
-Malicious domain names: data.netlab.360.com (/Data/dga.txt.zip)<br />
+Benign domain names from Cisco Umbrella (/Data/top-1m.csv.zip)<br />
+Malicious domain names from data.netlab.360.com (/Data/dga.txt.zip)<br />
 
 **Feature engineering** <br />
-DGA_feature_engineering-1DGAfamily.ipynb<br />
-DGA_feature_engineering-6DGAfamilies.ipynv<br />
+/Codes/DGA_feature_engineering-1DGAfamily.ipynb<br />
+/Codes/DGA_feature_engineering-6DGAfamilies.ipynv<br />
 
 **Data after feature engineering**<br />
 Data with one DGA family (Data/domain_final_features.csv.zip)<br /> 
 - DGA malicious damain names 179991 instances<br />
-- Benign domain names 17991 instances<br />
+- Benign domain names 179991 instances<br />
 
 Data with 6 DGA families (Data/domain_final_features_moredata.csv.zip)<br />
 - DGA malicious damains 213695 instances<br />
@@ -27,8 +27,8 @@ Data with 6 DGA families (Data/domain_final_features_moredata.csv.zip)<br />
 ![GitHub Logo](/images/workflow1_2-3.png)
 
 **Supervised machine learning**<br />
-DGA_ML-1DGAfamily.ipynb<br />
-DGA_ML-6DGAfamily.ipynb<br />
+/Codes/DGA_ML-1DGAfamily.ipynb<br />
+/Codes/DGA_ML-6DGAfamily.ipynb<br />
 
 **Results**<br />
 Result1. Generating a realistic ML model by increasing diversity of the DGA data<br />
@@ -36,9 +36,9 @@ Result1. Generating a realistic ML model by increasing diversity of the DGA data
 - Data form six  DGA families: Accuracy 0.87
 
 Result 2. A rank and % of feature importance were changed upon increasing diversity of the DGA data<br />
-- Data from one of DGA family:<br />
+- Data from one DGA family:<br />
   entropy (37%)> the length of domain (33 %) > a number of digits (28%)<br />
-- Data from six of DGA families<br />
+- Data from six DGA families<br />
  the length of domain (44 %) > entropy (36%)> vowels to consonant ratio (18%)<br />
  
 Result 3. Random Forest (RF) & Decision Trees (DT) outperformed Support Vector Classification (SVC)<br />
@@ -48,10 +48,10 @@ Result 3. Random Forest (RF) & Decision Trees (DT) outperformed Support Vector C
 	SVC	83.2<br />
 
 **Quality of the results**<br />
-My result is in line with previous findings achieving relatively low accuracy using the random forest approach. <br />
+My result is in line with previous findings achieving relatively low accuracy using the RF approach. <br />
 
 **What did I learn?**<br />
-A diversity of DGA data is crucial to prevent overfitting in DGA classifiers and to obtain correct information about feature importances. <br />
+A diversity of DGA data is crucial in ML modelling of DGA classifiers and to obtain correct information about feature importances. <br />
 
 **How would I improve?**<br />
 - To apply the deep learning approach like Long Short-Term Memory (LSTM) which has been shown to achieve higher accuracy <br />
