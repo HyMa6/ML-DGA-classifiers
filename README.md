@@ -9,6 +9,8 @@ I followed online lecture of ‘Supervised machine learning in security applicat
 **Data**    <br />
 Benign domain names from Cisco Umbrella (/Data/top-1m.csv.zip)<br />
 Malicious domain names from data.netlab.360.com (/Data/dga.txt.zip)<br />
+**Approaches**<br />
+![GitHub Logo](/images/workflow1_2-3.png)
 
 **Feature engineering** <br />
 /Codes/DGA_feature_engineering-1DGAfamily.ipynb<br />
@@ -22,9 +24,6 @@ Data with one DGA family (Data/domain_final_features.csv.zip)<br />
 Data with 6 DGA families (Data/domain_final_features_moredata.csv.zip)<br />
 - DGA malicious damains 213695 instances<br />
 - Benign domains 213695 instances<br />
-
-**Approaches**<br />
-![GitHub Logo](/images/workflow1_2-3.png)
 
 **Supervised machine learning**<br />
 /Codes/DGA_ML-1DGAfamily.ipynb<br />
